@@ -1,4 +1,4 @@
-rates
+xml-to-xls
 =====
 
 perl script that converts xml table to xls file, and xls to xml
