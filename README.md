@@ -3,47 +3,26 @@ rates
 
 perl script that converts IMGA rates xml table to xls, and xls to IMGA rates xml
 
-
-HOW TO:
--------
-Copy IMGA rates xml table to a txt file and run script to make xls.
-
-Switches:
----------
-
--makexls: makes a easy to read and formated xls file from rates xml table
-
--makexml: makes xml table from xls file
-
-Examples:
----------
->$ perl rates.pl -makexls filein.txt fileout.xls
-
->$ perl rates.pl -makexml filein.xls (prints to stdout)
-
->$ perl rates.pl -makexml filein.xls > fileout.txt (prints to fileout)
-
-
 Turn this 
 ```
 <table id="TableName">
-	<row name="County">
-		<key>County0</key>
-		<key>County1</key>
-		<key>County2</key>
-		<key>County3</key>
-		<key>County4</key>
-		<key>County5</key>
-		<key>County6</key>
-		<key>County7</key>
-		<key>County8</key>
-		<key>County9</key>
+	<row name="RowName">
+		<key>RowName0</key>
+		<key>RowName1</key>
+		<key>RowName2</key>
+		<key>RowName3</key>
+		<key>RowName4</key>
+		<key>RowName5</key>
+		<key>RowName6</key>
+		<key>RowName7</key>
+		<key>RowName8</key>
+		<key>RowName9</key>
 	</row>
-	<column name="type">
-		<key>name</key>
-		<key>rate1</key>
-		<key>rate2</key>
-		<key>rate3</key>
+	<column name="TypeName">
+		<key>Names</key>
+		<key>Rate1</key>
+		<key>Rate2</key>
+		<key>Rate3</key>
 	</column>
 	<data>
 		<values><value>name0</value><value>1</value><value>2</value><value>3</value></values>
@@ -59,6 +38,28 @@ Turn this
 	</data>
 </table>
 ```
+
 Into this and vice versa
+
 ![rates Screenshot1]
-(http://i.imgur.com/kRpks3o.png)
+(http://i.imgur.com/by9H18U.png)
+
+
+HOW TO:
+-------
+Copy IMGA rates xml table to a txt file and run script to make xls.
+
+Switches:
+---------
+
+-makexls: makes a easy to read and formated xls file from rates xml table
+
+-makexml: makes xml table from xls file
+
+Example Invocations:
+---------
+>$ perl rates.pl -makexls filein.txt fileout.xls
+
+>$ perl rates.pl -makexml filein.xls (prints to stdout)
+
+>$ perl rates.pl -makexml filein.xls > fileout.txt (prints to fileout)
