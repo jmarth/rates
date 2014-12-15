@@ -52,7 +52,7 @@ Copy xml table to a txt file and run script to make xls.
 Switches:
 ---------
 
--makexls: makes a easy to read and formated xls file from rates xml table
+-makexls: makes a easy to read and formated xls file from xml table
 
 -makexml: makes xml table from xls file
 
