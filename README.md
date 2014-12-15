@@ -25,7 +25,7 @@ Examples:
 
 
 Turn this 
-'''
+```
 <table id="TableName">
 	<row name="County">
 		<key>County0</key>
@@ -58,7 +58,7 @@ Turn this
 		<values><value>name9</value><value>28</value><value>29</value><value>30</value></values>
 	</data>
 </table>
-'''
+```
 Into this and vice versa
 ![rates Screenshot1]
 (http://i.imgur.com/kRpks3o.png)
