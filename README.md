@@ -1,7 +1,7 @@
 rates
 =====
 
-perl script that converts IMGA rates xml table to xls, and xls to IMGA rates xml
+perl script that converts xml table to xls file, and xls to xml
 
 Turn this 
 ```
@@ -47,7 +47,7 @@ Into this and vice versa
 
 HOW TO:
 -------
-Copy IMGA rates xml table to a txt file and run script to make xls.
+Copy xml table to a txt file and run script to make xls.
 
 Switches:
 ---------
