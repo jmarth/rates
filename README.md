@@ -13,6 +13,7 @@ Switches:
 -makexml: makes xml table from xls file
 
 Examples:
+
 rates -makexls filein.txt fileout.xls
 
 rates -makexml filein.xls (prints to stdout)
